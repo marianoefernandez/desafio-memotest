@@ -32,6 +32,6 @@ SONIDO_ERROR = utils.generar_sonido("{0}{1}".format(CARPETA_RECURSOS,"equivocado
 SONIDO_ACIERTO = utils.generar_sonido("{0}{1}".format(CARPETA_RECURSOS,"acierto.wav"), 0.1)
 SONIDO_VOLTEAR = utils.generar_sonido("{0}{1}".format(CARPETA_RECURSOS,"voltear.wav"), 0.25)
 
-#sutils.generar_musica("{0}{1}".format(CARPETA_RECURSOS,"fondo.wav"),0.1)#Genero la música de fondo
+utils.generar_musica("{0}{1}".format(CARPETA_RECURSOS,"fondo.wav"),0.1)#Genero la música de fondo
 
 
